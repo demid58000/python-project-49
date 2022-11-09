@@ -1,9 +1,11 @@
 import random
-from brain_games.cli import welcome_user
+#from brain_games.cli import name
+
+
 
 
 def is_even():
-  name = welcome_user()
+  #name = welcome_user()
   print('Answer "yes" if the number is even, otherwise answer "no"')
   right_answers = 0
   
@@ -24,6 +26,14 @@ def is_even():
         return 'Wrong answer'
         break
       if right_answers == 3:  
-        return f'Congratulations, {name}!'
+        return f'Congratulations, name!'
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
+
+print(is_even())
 
 

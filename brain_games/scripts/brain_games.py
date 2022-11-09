@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
-from brain_games.cli import *
-from brain_games.scripts.brain_even import is_even
+from brain_games.cli import welcome_user
 
 def main():
-   return 'Welcome to the Brain Games!'
-print(main())
+   pass
 
-print(is_even())
+def greeting():
+   return 'Welcome to the Brain Games!'
+print(greeting())
+print(welcome_user())
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
 

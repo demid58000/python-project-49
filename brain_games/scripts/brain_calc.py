@@ -1,10 +1,8 @@
 import random
-from brain_games.cli import welcome_user
-
 
 
 def calc():
-    name = welcome_user()
+    #name = welcome_user()
     sign = ['+', '*', '-' ]
     print('What is the result of the expression?')
     
@@ -40,10 +38,21 @@ def calc():
           else:
             return f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}'
             break
+
+
         
       
       if game_points == 3:
-        return f'Congrats! {name}'
+        return f'Congrats! name'
+
+print(calc())
+
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
       
           
 
