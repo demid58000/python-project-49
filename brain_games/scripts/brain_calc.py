@@ -1,7 +1,7 @@
 import random
 
 
-def calc():
+def main():
     #name = welcome_user()
     sign = ['+', '*', '-' ]
     print('What is the result of the expression?')
@@ -20,7 +20,7 @@ def calc():
           game_points += 1
           print('Correct!')
         else:
-          return f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}'
+          print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}')
           break
       elif sign_ == '-':
           right_answer = first_number - second_number
@@ -28,7 +28,7 @@ def calc():
             game_points += 1
             print('Correct!')
           else:
-            return f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}'
+            print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}')
             break
       elif sign_ == '*':
           right_answer = first_number * second_number
@@ -36,23 +36,19 @@ def calc():
             game_points += 1
             print('Correct!')
           else:
-            return f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}'
+            print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}')
             break
-
-
-        
-      
       if game_points == 3:
-        return f'Congrats! name'
+        print('Congrats! name')
 
-print(calc())
+# print(main())
 
-def main():
-    pass
+# def main():
+#     pass
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
       
           
 
