@@ -1,9 +1,12 @@
 import random
+from brain_games.cli import welcome_user
+  
 
 
 
 def main():
-  
+  print('Welcome to the Brain Games!')
+  name = welcome_user()
   print('Answer "yes" if the number is even, otherwise answer "no"')
   right_answers = 0
   
@@ -24,7 +27,7 @@ def main():
         print('Wrong answer')
         break
       if right_answers == 3:  
-        print('Congratulations, ivan!')
+        print(f'Congratulations, {name}!')
 
 
 
