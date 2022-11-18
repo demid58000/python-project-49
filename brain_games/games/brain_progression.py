@@ -4,7 +4,7 @@ rule = "What number is missing in the progression?"
 
 def start_game():
     first_number = random.randint(0, 5)
-    second_number = random.randint(15, 20)
+    second_number = random.randint(20, 30)
     step = random.randint(1, 3)
     lst_ = []
   
