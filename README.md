@@ -5,4 +5,4 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e966b94f8276eca0e6d0/test_coverage)](https://codeclimate.com/github/demid58000/python-project-49/test_coverage)
 
-<script id="asciicast-kCb516roDRAfkdil3LsbWVLkG" src="https://asciinema.org/a/kCb516roDRAfkdil3LsbWVLkG.js" async></script>
+[![asciicast](https://asciinema.org/a/kCb516roDRAfkdil3LsbWVLkG.svg)](https://asciinema.org/a/kCb516roDRAfkdil3LsbWVLkG)
