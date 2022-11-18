@@ -20,7 +20,7 @@ def game_run(game):
         elif your_answer == right_answer:
             print('Correct!')
             start_score += 1
-    print(f'Congratulation, {player_name}')
+    print(f'Congratulation, {player_name}!')
 
 
 
