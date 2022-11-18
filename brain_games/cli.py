@@ -1,7 +1,7 @@
 import prompt
 
 
-def welcome_user(prolog =''):
+def welcome_user(prolog=''):
     print('Welcome to the Brain Games!')
     if prolog:
         print(f'{prolog}')
@@ -14,4 +14,3 @@ def answer(question):
     print(f'Question: {question}')
     answer = prompt.string('your answer: ')
     return answer
-

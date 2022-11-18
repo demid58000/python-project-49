@@ -5,10 +5,7 @@ max_points = 3
 
 def game_run(game):
     player_name = welcome_user(game.rule)
-    
-
     start_score = 0
-
     while start_score < max_points:
         question, right_answer = game.start_game()
         your_answer = answer(question)
@@ -21,7 +18,3 @@ def game_run(game):
             print('Correct!')
             start_score += 1
     print(f'Congratulations, {player_name}!')
-
-
-
-
