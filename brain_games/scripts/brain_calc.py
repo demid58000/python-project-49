@@ -1,47 +1,13 @@
-import random
-from brain_games.cli import welcome_user
+from brain_games.game_engine import game_run
+from brain_games.games import brain_calc
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    name = welcome_user()
-    sign = ['+', '*', '-' ]
-    print('What is the result of the expression?')
-    
-    game_points = 0
-    
-    while game_points < 3:
-      first_number = random.randint(1, 100)
-      second_number = random.randint(1, 100)
-      sign_ = random.choice(sign)
-      print(f'Question: {first_number} {sign_} {second_number}')
-      user_answer = int(input('Your answer: '))
-      if sign_ == '+':
-        right_answer = first_number + second_number
-        if right_answer == user_answer:
-          game_points += 1
-          print('Correct!')
-        else:
-          print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}')
-          break
-      elif sign_ == '-':
-          right_answer = first_number - second_number
-          if right_answer == user_answer:
-            game_points += 1
-            print('Correct!')
-          else:
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}')
-            break
-      elif sign_ == '*':
-          right_answer = first_number * second_number
-          if right_answer == user_answer:
-            game_points += 1
-            print('Correct!')
-          else:
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}')
-            break
-      if game_points == 3:
-        print(f'Congrats! {name}')
+    game_run(brain_calc)
+
+
+if __name__ == "__main__":
+    main()
 
 
       
