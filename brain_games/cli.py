@@ -1,11 +1,12 @@
 import prompt
 
 
-def welcome_user(rule):
+def welcome_user(prolog =''):
     print('Welcome to the brain games!')
-    name = prompt.string('May i have your name?')
+    if prolog:
+        print(f'{prolog}')
+    name = prompt.string('May i have your name? ')
     print(f'Hello, {name}')
-    print(rule)
     return name
 
 
