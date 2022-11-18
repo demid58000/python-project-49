@@ -2,7 +2,7 @@ import prompt
 
 
 def welcome_user(prolog =''):
-    print('Welcome to the brain games!')
+    print('Welcome to the Brain Games!')
     if prolog:
         print(f'{prolog}')
     name = prompt.string('May i have your name? ')
