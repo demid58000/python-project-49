@@ -10,7 +10,7 @@ def IsPrime(n):
     return d == n
 
 
-def start_game():
+def generate_answer_and_question():
     prime = ''
     question = randint(0, 100)
     if IsPrime(question) is True:

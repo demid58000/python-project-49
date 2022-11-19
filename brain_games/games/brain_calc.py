@@ -3,7 +3,7 @@ import random
 rule = "What is the result of the expression?"
 
 
-def start_game():
+def generate_answer_and_question():
     sign = ['+', '*', '-']
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
