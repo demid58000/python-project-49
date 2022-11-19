@@ -4,7 +4,7 @@ max_points = 3
 
 
 def game_run(game):
-    player_name = welcome_user(game.rule)
+    player_name = welcome_user(game.RULE)
     start_score = 0
     while start_score < max_points:
         question, right_answer = game.generate_answer_and_question()

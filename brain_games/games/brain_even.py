@@ -1,7 +1,7 @@
 from random import randint
 
 
-rule = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_answer_and_question():

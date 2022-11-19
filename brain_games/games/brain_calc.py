@@ -1,6 +1,6 @@
 import random
 
-rule = "What is the result of the expression?"
+RULE = "What is the result of the expression?"
 
 
 def generate_answer_and_question():
