@@ -3,8 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/e966b94f8276eca0e6d0/maintainability)](https://codeclimate.com/github/demid58000/python-project-49/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/e966b94f8276eca0e6d0/test_coverage)](https://codeclimate.com/github/demid58000/python-project-49/test_coverage)
-
 [![asciicast](https://asciinema.org/a/kCb516roDRAfkdil3LsbWVLkG.svg)](https://asciinema.org/a/kCb516roDRAfkdil3LsbWVLkG)
 
 [![asciicast](https://asciinema.org/a/1mjBrXzIfwOJlb8Q6XI4een9E.svg)](https://asciinema.org/a/1mjBrXzIfwOJlb8Q6XI4een9E)
