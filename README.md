@@ -3,6 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/e966b94f8276eca0e6d0/maintainability)](https://codeclimate.com/github/demid58000/python-project-49/maintainability)
 
+Brain-games. First Hexlet project. Python developer.
+
+Command for instalation :
+
+pip install git+https://github.com/demid58000/python-project-49
+
 Install and first run:
 
 [![asciicast](https://asciinema.org/a/dtq8W7p4G87lWAjqhZ03YBGnQ.svg)](https://asciinema.org/a/dtq8W7p4G87lWAjqhZ03YBGnQ)
